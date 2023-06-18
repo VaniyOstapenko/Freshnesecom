@@ -34,6 +34,101 @@ main {
     margin-top: 242px;
 }
 
+.banner .flex-img {
+    display: flex;
+    margin-bottom: 128px;
+    margin-left: 195px;
+}
+
+.banner .flex-img .space-for-img .total {
+    padding: 50px 0 0 30px;
+}
+
+.banner .flex-img .space-for-img2 .total {
+    padding: 50px 0 0 30px;
+}
+
+.banner .space-for-img {
+    background-image: url(../style/assets/Group\ 18.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 419px;
+    height: 280px;
+}
+
+.banner .space-for-img2 {
+    background-image: url(../style/assets/Group\ 18.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 419px;
+    height: 280px;
+    margin-left: 31px;
+}
+
+.banner .flex-img .space-for-img p {
+    font: 600 12px 'Poppins';
+    color: #6A983C;
+}
+
+.banner .flex-img .space-for-img2 p {
+    font: 600 12px 'Poppins';
+    color: #6A983C;
+}
+
+.banner .flex-img .space-for-img h1 {
+    font: 600 22px 'Poppins';
+    color: #151515;
+    margin-top: 8px;
+}
+
+.banner .flex-img .space-for-img2 h1 {
+    font: 600 22px 'Poppins';
+    color: #151515;
+    margin-top: 8px;
+}
+
+.banner .flex-img .space-for-img .break h3 {
+    font: 700 15px 'Poppins';
+    color: #151515;
+    padding: 12px 0 12px 10px;
+}
+
+.banner .flex-img .space-for-img2 .break h3 {
+    font: 700 15px 'Poppins';
+    color: #151515;
+    padding: 12px 0 12px 10px;
+}
+
+.banner .flex-img .break .small-symbol {
+    background-image: url(../style/assets/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8px;
+    height: 10px;
+}
+
+.banner .flex-img .break {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner .flex-img .space-for-img .break {
+    border: 2px solid #92C064;
+    border-radius: 12px;
+    width: 163px;
+    height: 47px;
+    margin-top: 100px;
+}
+
+.banner .flex-img .space-for-img2 .break {
+    border: 2px solid #92C064;
+    border-radius: 12px;
+    width: 163px;
+    height: 47px;
+    margin-top: 100px;
+}
+
 header .search {
     display: flex;
 }
@@ -154,4 +249,23 @@ header .bag {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.lower-level h3 {
+    font: 600 18px 'Poppins';
+    color: #151515;
+}
+
+footer .lower-level p {
+    font: 400 14px 'Poppins';
+    color: #6A983C;
+    margin-top: 16px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-column-gap: 200px;
+    justify-content: center;
+    margin-top: 137px;
 }
